@@ -1,0 +1,119 @@
+/* Styles de base */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Couleur de fond claire */
+    color: #333;
+    background: linear-gradient(135deg ,#333 ,#b74b4b);
+}
+
+/* En-tête */
+header {
+    background-color: #b74b4b; /* Couleur bleu vif */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg ,#b74b4b ,#333);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em; /* Taille de police plus grande */
+}
+
+header p {
+    margin: 5px 0 20px;
+}
+
+/* Menu de navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Flexbox pour un alignement horizontal */
+    justify-content: center; /* Centrer le menu */
+}
+
+nav ul li {
+    margin-right: 30px; /* Espace entre les éléments */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s; /* Transition pour le survol */
+}
+
+nav ul li a:hover {
+    background-color: #b74b4b;
+ /* Couleur au survol */
+}
+
+/* Section de contact */
+section {
+    background-color: white;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Ombre */
+    background: linear-gradient(135deg ,#b74b4b ,#333);
+}
+
+h2 {
+    text-align: center;
+    color: #333; /* Couleur pour le titre */
+}
+
+/* Formulaire */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 15px; /* Padding plus grand */
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s; /* Transition pour le focus */
+}
+
+form input:focus, form textarea:focus {
+    border-color: #b74b4b; /* Couleur de bordure au focus */
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #b74b4b; /* Couleur du bouton */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition pour le survol */
+}
+
+form button:hover {
+    background-color: #b74b4b; /* Couleur au survol */
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #b74b4b;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(135deg ,#b74b4b ,#333);
+}

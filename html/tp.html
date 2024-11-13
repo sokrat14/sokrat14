@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="../css/style-contact.css">
+    </head>
+    <body>
+        <header>
+            <h1>Mon Site de Contact</h1>
+            <p>Un site pour rester en contact</p>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="../html/skills.html">skills</a></li>
+                    <li><a href="../html/tp.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+       
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <form action="/envoyer_message" method="post">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+        
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="sujet">Sujet :</label>
+                <input type="text" id="sujet" name="sujet" required>
+        
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+        
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+        <footer>
+            <p>&copy; 2024 Mon Site de Contact. Tous droits réservés.</p>
+        </footer>
+      
+        
+    </body>
+</html>
